@@ -13,7 +13,6 @@ html {
 
 
 .header {
-    /* width: 100%; */
     height: 40vh;
     background-image: url(../assets/imgs/desktop-medium.jpg);
     background-position: center;
@@ -32,33 +31,32 @@ html {
 }
 
 
-
 .introduction {
-    /* width: 100%; */
-    /* height: 60vh; */
-    min-height: 60vh;
+    height: 38.4rem;
     background-image: url(../assets/imgs/space-medium.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* display: flex; */
+}
+
+.introduction__background-lg {
+    height: 38.4rem;
+    background: linear-gradient(180deg, rgba(15,76,117,1) 30%, rgba(208,224,227,0) 100%);
 }
 
 .introduction__container {
-    /* width: 100%; */
-    /* height: 60vh; */
-    min-height: 60vh;
-    background: linear-gradient(180deg, rgba(15,76,117,1) 30%, rgba(208,224,227,0) 100%);
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: minmax(5rem, auto);
+    justify-content: center;
+    align-items: center;
 }
 
-/* .introduction__container .name {
-    height: 25%;
-    color: white;
-    font-size: 1.8rem;
-    text-align: center;
-} */
+.name__container {
+    max-width: 36rem;
+    /*esto es por si, en mobile, el usuario
+    decide aumentar el tamaño de fuente del navegador*/
+}
 
 .name{
     font-weight: 500;
@@ -71,7 +69,6 @@ html {
 
 .curriculum__container {
     height: 8rem;
-    /* background-color: pink; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,13 +76,12 @@ html {
 
 .curriculum {
     display: block;
-    font-size: 2.3rem;
+    font-size: 2rem;
     border: 3px solid black;
     text-decoration: none;
+    text-align: center;
     font-weight: 500;
-    color: black;
-    /* background-color: #B7CECE; */
-    background-color: #91E07F;
+    color: white;
     border-radius: 20px;
     padding: 8px;
 }
@@ -94,45 +90,20 @@ html {
 
 .contact__container {
     display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    height: 8rem;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.link {
-    width: 8rem;
-    height: 100%;
-}
-
-.url {
-    /* display: block; */
-    width: 100%;
-    height: 100%;
-}
-
-.url img {
-    width: 100%;
-    height: 100%;
-}
-
-/* .link {
-    min-width: 50%;
-    max-width: 50%;
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-} */
+    height: 8rem;
+}
 
-/* .link .url {
-    height: 100%;
-    
-}  */
 
-/* .link .url img {
-    height: 100%;
-} */
+.image {
+    height: 7.3rem;
+    width: 8.1rem;
+}
+
+
+
+
 
 .knowledge {
     font-family: 'Lato', sans-serif;
