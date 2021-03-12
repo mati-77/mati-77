@@ -106,37 +106,36 @@ html {
 
 
 .knowledge {
-    font-family: 'Lato', sans-serif;
     background-color: #A0ACBD;
     min-height: 35rem;
     display: flex;
     justify-content: center;
+    align-content: center;
     align-items: center;
 }
 
 .knowledge__container {
-    /* margin: 3rem; */
-    /* width: 85%; */
-    background-color: #3C4856;
-    padding: 3rem;
+    width: 30.6rem;
+    height: 30.6rem;
     max-width: 85%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    background-color: #3C4856;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
+    align-items: center;
     border-radius: 3rem;
 }
 
 .knowledge__container-title {
     text-align: center;
-    margin-top: 20px;
+    max-width: 85%;
     margin-bottom: 20px;
     font-size: 1.8rem;
     color: white;
 }
 
 .knowledge__container-list {
+    max-width: 85%;
     text-align: center;
     list-style: none;
     color: white;
@@ -145,20 +144,13 @@ html {
 .knowledge__container-list li {
     font-size: 1.6rem;
     margin-top: 0.5rem;
-    
 }
 
 
 
 
 .projects {
-    height: auto;
-    width: 100%;
     background-color: tomato;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 .projects__title {
@@ -168,15 +160,9 @@ html {
 }
 
 .project__container {
-    /* width: 90%; */
     display: grid;
-    /* justify-content: center; */
     place-items: center;
     grid-auto-rows: minmax(3rem, auto);
-
-    /* display: flex;
-    flex-direction: column;
-    align-self: center; */
 }
 
 .project__image__container {
@@ -199,26 +185,23 @@ html {
     font-size: 1.5rem;
 }
 
-.project__links {
+.project__links-container {
     width: 80%;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
     justify-content: space-evenly;
     font-size: 1.5rem;
 }
 
-.project__links-webpage {
+.project__link {
     text-decoration: none;
     color: black;
 }
 
-.project__links-code {
-    text-decoration: none;
-    color: black;
+.turn-around {
+    text-align: center;
 }
-
 
 .back-to-start {
     line-height: 4rem;
