@@ -11,6 +11,8 @@ html {
 }
 
 
+/*Sección del header*/
+
 
 .header {
     height: 40vh;
@@ -31,8 +33,12 @@ html {
 }
 
 
+/*Seccion de introducción*/
+
+
 .introduction {
-    height: 38.4rem;
+    height: 60vh;
+   /*  height: 38.4rem; */
     background-image: url(../assets/imgs/space-medium.jpg);
     background-position: center;
     background-size: cover;
@@ -102,7 +108,7 @@ html {
 }
 
 
-
+/*Seccion de conocimientos*/
 
 
 .knowledge {
@@ -147,6 +153,7 @@ html {
 }
 
 
+/*Sección de proyectos*/
 
 
 .projects {
@@ -214,6 +221,3 @@ html {
     text-decoration: none;
     color: black;
 }
-
-
-

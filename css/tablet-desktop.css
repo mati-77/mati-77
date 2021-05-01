@@ -1,14 +1,14 @@
 
 
+/*Sección del header*/
+
+
 .header h1 {
     font-size: 2.5rem;
 }
 
 
-.introduction__container {
-    grid-auto-rows: minmax(6rem, auto);
-}
-
+/*Seccion de introducción*/
 
 
 .name__container {
@@ -24,69 +24,31 @@
 }
 
 
+/*Seccion de conocimientos*/
 
-
-
-
-
-.knowledge {
-    background-color: #A0ACBD;
-    min-height: 35rem;
-    display: flex;
-    justify-content: center;
-    /* align-content: center; */
-    align-items: center;
-}
 
 .knowledge__container {
     width: 85%;
-    height: unset; /*valor adecuado?*/
+    height: unset;
     padding: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    /* max-width: 85%;
-    background-color: #3C4856;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3rem; */
-    /*cambios*/
 }
 
 .knowledge__container-title {
-    text-align: center;
-    max-width: 85%;
-    margin-bottom: 20px;
     font-size: 3.6rem;
-    color: white;
-    /*cambios*/
-}
-
-.knowledge__container-list {
-    max-width: 85%;
-    text-align: center;
-    list-style: none;
-    color: white;
 }
 
 .knowledge__container-list li {
     font-size: 2.5rem;
-    margin-top: 0.5rem;
-    /*cambios*/
 }
 
 
+/*Sección de proyectos*/
 
-
-
-.projects {
-    background-color: tomato;
-}
 
 .projects__title {
     font-size: 3.6rem;
-    text-align: center;
     line-height: 7rem;
 }
 
@@ -94,69 +56,33 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: minmax(3rem, auto) minmax(3rem, auto) minmax(3rem, auto);
-    place-items: center;
-    /*cambios*/
+    grid-auto-rows: unset;
 }
 
 .project__image__container {
     grid-column: 1 / 2;
     grid-row: 1 / 4;
-    height: 90%;
-    /*cambios*/
 }
-
-/* .project__image {
-    border-radius: 2rem;
-    height: 100%;
-    
-} */
 
 .project__title {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     font-size: 3.3rem;
-    /*cambios*/
 }
 
 .project__description {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    max-width: 80%;
-    text-align: center;
     font-size: 2rem;
-    /*cambios*/
 }
 
 .project__links-container {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    width: 80%;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    display: flex;
     justify-content: space-around;
-    /* font-size: 1.5rem; */
-    /*cambios*/
 }
 
 .project__link {
     font-size: 1.8rem;
-    text-decoration: none;
-    color: black;
-    border: 0.1rem solid white;
-    border-radius: 1.5rem;
     padding: 0.7rem;
-    /*cambios*/
-}
-
-.turn-around {
-    text-align: center;
-}
-
-.back-to-start {
-    line-height: 4rem;
-    text-align: center;
-    font-size: 1.8rem;
-    text-decoration: none;
-    color: black;
 }
